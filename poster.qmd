@@ -2,10 +2,10 @@
 title: This is a Fabulously Reproducible academic poster with typst and quarto!
 format:
   poster-typst: 
-    size: "36x30"
-    poster-authors: "J. Sheehan, L.A. Johnson, P.D.R. Higgins"
-    departments: "Department of Internal Medicine"
-    institution-logo: "./images/umichlogohorizontal.png"
+    size: "72x30"
+    poster-authors: "J. Sheehan, L.A. Johnson, A. Jordan, P.D.R. Higgins"
+    departments: "Department of Internal Medicine, Division of Gastronenterology"
+    institution-logo: "./images/umichlogohex.png"
     footer-text: "Digestive Disease Week 2024"
     header-color: "00274C"
     footer-emails: "abc@med.umich.edu"
@@ -20,8 +20,6 @@ format:
 - Even more information
 - Moar information with a meme
 - Even more information than you wanted
-
-![Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.](./images/Rosetta_stone.png){width="50%"}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non pos- sit. At.
 
