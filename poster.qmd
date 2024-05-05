@@ -1,0 +1,90 @@
+---
+title: This is a Fabulously Reproducible academic poster with typst and quarto!
+format:
+  poster-typst: 
+    size: "36x30"
+    poster-authors: "J. Sheehan, L.A. Johnson, P.D.R. Higgins"
+    departments: "Department of Internal Medicine"
+    institution-logo: "./images/umichlogohorizontal.png"
+    footer-text: "Digestive Disease Week 2024"
+    header-color: "00274C"
+    footer-emails: "abc@med.umich.edu"
+    footer-color: "FFCB05"
+    
+---
+
+# Background
+
+- Background Text with bullets
+- More information
+- Even more information
+- Moar information with a meme
+- Even more information than you wanted
+
+![Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.](./images/Rosetta_stone.png){width="50%"}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non pos- sit. At.
+
+# Methods
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri.
+
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut.
+
+| Column 1               | Col2         | Column 3     |
+|------------------------|--------------|--------------|
+| Lorem ipsum dolor.     | Lorem ipsum. | $\alpha$     |
+| Lorem ipsum.           | Lorem ipsum. | $\beta$      |
+| Lorem.                 | Lorem.       | $\gamma$     |
+| Lorem ipsum dolor.     | Lorem.       | $\theta$     |
+
+: Lorem ipsum dolor sit amet {#tbl-1}
+
+Lorem @tbl-1 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et.
+
+## Results
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre.
+
+![Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.](./images/Standard_lettering.png){width="100%"}
+
+# Discussion
+
+::: {.block fill="luma(230)" inset="8pt" radius="4pt"}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplifi- carique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et.
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+
+:::
+
+## Implications
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. 
+
+## More stuff
+
+Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et collaudata est, cum id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, om- nis dolor repellendus. Temporibus autem quibusdam et.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. 
+
+![Temperature and ozone level](images/fig-airquality-1.svg)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et collaudata est, cum id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, om- nis dolor repellendus. Temporibus autem quibusdam et.
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+  - Lorem ipsum dolor sit amet.
+  -  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed. 
+  - Lorem ipsum dolor sit amet, consectetur adipiscing.
+
+$$
+\sum_(k=1)^n k = \frac{(n(n+1))}{2} = \frac{(n^2 + n)}{2}
+$$
