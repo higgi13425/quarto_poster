@@ -1,0 +1,49 @@
+$if(include-verbose-comments)$
+<!--
+    Customizing the author formatting by updating the partials in
+    quarto-cli/src/resources/formats/html/pandoc/title-block.html
+    per https://quarto.org/docs/journals/templates.html#template-partials
+-->
+$endif$
+
+<!-- Main page wrapper. This tag is closed as part of the include-after-body definition -->
+<div class="slides $if(fill-page)$fill-page$endif$">
+
+
+<header id="title-block-header">
+$if(title)$<h1 class="title">$title$</h1>$endif$
+$if(subtitle)$
+<p class="subtitle">$subtitle$</p>
+$endif$
+
+$if(include-verbose-comments)$
+<!-- Replacing the default author implementation with something closer to other quarto templates
+$for(author)$
+<p class="author">$author$</p>
+$endfor$
+-->
+$endif$
+$for(by-author)$$by-author.name.literal$$if(by-author.affiliations)$<sup>$for(by-author.affiliations)$$it.number$$sep$,$endfor$</sup>$endif$$sep$, $endfor$
+$if(by-affiliation)$
+    <ol class="affiliations">
+    $for(by-affiliation)$
+        <li>$by-affiliation.name$</li>
+    $endfor$
+    </ol>
+$endif$
+
+
+$if(date)$
+<p class="date">$date$</p>
+$endif$
+
+<!-- At this time, not supporting the metadata for the document's abstract
+$if(abstract)$
+<div class="abstract">
+<div class="abstract-title">$abstract-title$</div>
+$abstract$
+</div>
+$endif$
+-->
+
+</header>

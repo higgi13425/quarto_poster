@@ -66,8 +66,8 @@
   // The poster's content.
   body
 ) = {
-  // Set the body font.
-  set text(font: "STIX Two Text", size: 16pt)
+  // Set the body font. Use a Google Font you like. Set size.
+  set text(font: "Open Sans", size: 32pt)
   let sizes = size.split("x")
   let width = int(sizes.at(0)) * 1in
   let height = int(sizes.at(1)) * 1in
@@ -81,7 +81,11 @@
   footer_text_font_size = int(footer_text_font_size) * 1pt
 
   // Configure the page.
-  // This poster defaults to 36in x 24in.
+  // This poster is based on a default of 36in x 24in
+  // below are commands from raw typst
+  // lots of options to configure the page can be
+  // found at https://typst.app/docs 
+  
   set page(
     width: width,
     height: height,
@@ -89,18 +93,19 @@
       (top: 1in, left: 2in, right: 2in, bottom: 2in),
     footer: [
       #set align(center)
-      #set text(32pt)
+      #set text(32pt) // altered for 72 x 30
       #block(
         fill: rgb(footer_color),
         width: 100%,
         inset: 20pt,
         radius: 10pt,
+    // note fonts modifiable in the footer
         [
-          #text(font: "Courier", size: footer_url_font_size, footer_url) 
+          #text(font: "PT Serif", size: footer_url_font_size, footer_url) 
           #h(1fr) 
           #text(size: footer_text_font_size, smallcaps(footer_text)) 
           #h(1fr) 
-          #text(font: "Courier", size: footer_url_font_size, footer_email_ids)
+          #text(font: "Noto Serif", size:  footer_url_font_size, footer_email_ids)
         ]
       )
     ]
@@ -111,10 +116,12 @@
   show math.equation: set block(spacing: 0.65em)
 
   // Configure lists.
-  set enum(indent: 10pt, body-indent: 9pt)
-  set list(indent: 10pt, body-indent: 9pt)
+  // modify indents as desired
+  set enum(indent: 30pt, body-indent: 9pt) 
+  set list(indent: 30pt, body-indent: 9pt)
 
   // Configure headings.
+  // modify numbering as desired, if any
   set heading(numbering: "I.A.1.")
   show heading: it => locate(loc => {
     // Find out the final number of the heading counter.
@@ -125,15 +132,15 @@
       1
     }
 
-    set text(24pt, weight: 400)
+    set text(40pt, weight: 700)
     if it.level == 1 [
-      // First-level headings are centered smallcaps.
-      #set align(center)
-      #set text({ 32pt })
+      // First-level headings are left-aligned numbered but not in (smallcaps) - perhaps this font does not do smallcaps.
+      #set align(left)
+      #set text({ 44pt })
       #show: smallcaps
       #v(50pt, weak: true)
       #if it.numbering != none {
-        numbering("I.", deepest)
+        numbering("1.", deepest)
         h(7pt, weak: true)
       }
       #it.body
@@ -141,10 +148,11 @@
       #line(length: 100%)
     ] else if it.level == 2 [
       // Second-level headings are run-ins.
+      // italic, 32 pt, numbered w/letters
       #set text(style: "italic")
       #v(32pt, weak: true)
       #if it.numbering != none {
-        numbering("i.", deepest)
+        numbering("A.", deepest)
         h(7pt, weak: true)
       }
       #it.body
@@ -160,16 +168,19 @@
   })
 
   // Arranging the logo, title, authors, and department in the header.
+  // Could add a 3rd column for Michigan image of hospital or campus
+  // extra line break "\n" added to authors to separate from title
+  // emph() causes italics
   align(center,
     grid(
       rows: 2,
       columns: (univ_logo_column_size, title_column_size),
       column-gutter: 0pt,
-      row-gutter: 50pt,
+      row-gutter: 20pt,
       image(univ_logo, width: univ_logo_scale),
-      text(title_font_size, title + "\n\n") + 
-      text(authors_font_size, emph(authors) + 
-          "   (" + departments + ") "),
+      text(title_font_size, title + "\n") + 
+      text(authors_font_size, emph("\n" + authors) + 
+          "\n" + departments),
     )
   )
 

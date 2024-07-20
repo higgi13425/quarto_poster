@@ -6,6 +6,9 @@
 // that ships with Quarto). It calls the typst function named 'article' which 
 // is defined in the 'typst-template.typ' file. 
 //
+// This file calls the 'poster' function defined in the 'typst-template.typ' file to render your poster to PDF when you press the Render button.
+// Make any edits to the template in the typst-template.typ file
+//
 // If you are creating or packaging a custom typst template you will likely
 // want to replace this file and 'typst-template.typ' entirely. You can find
 // documentation on creating typst templates here and some examples here:
@@ -33,6 +36,9 @@
   // Emails of the authors.
   $if(footer-emails)$ footer_email_ids: [$footer-emails$], $endif$
 
+  // Color of the header.
+  $if(header-color)$ header-color: "$header-color$", $endif$
+  
   // Color of the footer.
   $if(footer-color)$ footer_color: "$footer-color$", $endif$
 
@@ -40,6 +46,9 @@
   // ========
   // For 3-column posters, these are generally good defaults.
   // Tested on 36in x 24in, 48in x 36in, and 36in x 48in posters.
+  // Typical medical meeting posters are 60 or 72 in wide x 30 or 36 in tall
+  // in the US
+  // Or 100 cm wide by 189 cm tall  in Europe.
   // For 2-column posters, you may need to tweak these values.
   // See ./examples/example_2_column_18_24.typ for an example.
 

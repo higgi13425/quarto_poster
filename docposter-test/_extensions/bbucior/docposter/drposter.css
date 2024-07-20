@@ -1,0 +1,18 @@
+/* This CSS is from the drposter template for pandoc/rmarkdown and is released into the public domain (CC0).  Have fun! */
+
+/* CSS styles are organized into separate stylesheets for clarity. */
+/* In general, that's suboptimal for page load times (at least without minification), but maintainability is far more important for a static poster. */
+/* The local custom.css is a good way to override the defaults from drposter_files/, to ensure decoupling of your changes from the package. */
+/* See examples.css for a few examples on how to effectively modify these styles in your custom CSS */
+
+
+@import url("page.css");
+@import url("short_tags.css");
+
+@import url("grid.css");
+@import url("header.css");
+@import url("sections.css");
+
+@import url("fonts.css");
+@import url("theme.css");
+

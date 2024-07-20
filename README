@@ -1,0 +1,22 @@
+To get started, you will 
+- copy and rename the poster.qmd file to a new qmd file
+- edit this file to change title, authors, department, etc
+- edit this file to include your poster content
+- potentially edit the '/_extensions/quarto-ext/poster/typst-template.typ' file to change the layout of the poster
+  - key variables include:
+    - body - in this section, you might change the body font (any font from Google Fonts - find one you like)
+    - body - in this section, you might change the body font size
+    - configure lists - change indents for numbered and bulleted lists
+    - configure headings - can change font, alignment, size, numbering
+    - arrange logo, title, vertical spacing with \n commands
+- Make adjustments in the YAML header
+  - adjust poster dimensions (in inches, width then height)
+  - title, authors, departments
+  - title-column-size, title-font-size
+  - authors-font-size 
+  - font-size for body text
+  - univ-logo-column-size: 3
+  - footer-text, footer-emails, footer-url, footer-color
+- Press the Render button to render your poster to PDF
+- Click on the webpabe button at the top left of the Viewer tab to see the PDF poster in a full size browser window. Expand the window as needed or zoom in the browser window +/- buttons or with keyboard Cmd-_+ or Ctrl-_+.
+

@@ -1,0 +1,16 @@
+# Setting up the default project metadata for `quarto use`
+# per https://quarto.org/docs/extensions/project-types.html#project-type-extension
+
+project:
+  title: "DocPoster poster"
+  type: docposter
+  post-render:
+    # Also convert the poster html output to pdf.
+    # Comment out this chrome_pdf.R step if only the html output is desired.
+    - _extensions/bbucior/docposter/R/chrome_pdf.R 
+
+format:
+  docposter-html:
+    fill-page: true
+    embed-resources: true
+
