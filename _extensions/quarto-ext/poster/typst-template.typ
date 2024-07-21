@@ -58,15 +58,15 @@
   authors_font_size: "36",
 
   // Footer's URL and email font size (in pt).
-  footer_url_font_size: "30",
+  footer_url_font_size: "36",
 
   // Footer's text font size (in pt).
-  footer_text_font_size: "40",
+  footer_text_font_size: "36",
 
   // The poster's content.
   body
 ) = {
-  // Set the body font. Use a Google Font you like. Set size.
+  // Set the body font. Use a Google Font you like. Set size. Here we used Open Sans.
   set text(font: "Open Sans", size: 32pt)
   let sizes = size.split("x")
   let width = int(sizes.at(0)) * 1in
@@ -101,11 +101,11 @@
         radius: 10pt,
     // note fonts modifiable in the footer
         [
-          #text(font: "PT Serif", size: footer_url_font_size, footer_url) 
-          #h(1fr) 
           #text(size: footer_text_font_size, smallcaps(footer_text)) 
           #h(1fr) 
-          #text(font: "Noto Serif", size:  footer_url_font_size, footer_email_ids)
+          #text(font: "Open Sans", size: footer_url_font_size, footer_url) 
+          #h(1fr) 
+          #text(font: "Open Sans", size:  footer_url_font_size, footer_email_ids)
         ]
       )
     ]

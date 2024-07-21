@@ -24,7 +24,7 @@ format:
 - Even more information
 - Even more information than you wanted
 
-We show an unordered bulleted list above. Note that the superscripts in the author list were invoked with the markdown commands by putting carets (up-arrows, shift-6) around the numbers. There are more markdown shortcuts found here (https://quarto.org/docs/visual-editor/options.html) for all kinds of formatting, like **bold**, _italic_, ~subscripts~, or even ~~strikethrough~~.
+We show a bulleted list above. Note that the superscripts in the author list were invoked with the markdown commands by putting carets (up-arrows, shift-6) around the numbers. There are more markdown shortcuts found here (https://quarto.org/docs/visual-editor/options.html) for all kinds of formatting, like **bold**, _italic_, ~subscripts~, or even ~~strikethrough~~.
 
 # Methods
 
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
 
-Now we will lay out a fairly manual markdown table with a title. The title is placed after the table, but the title is not part of the table. The title is a markdown header, so it will be formatted as such. You can get more details on making markdown tables here (https://quarto.org/docs/authoring/tables.html). This is fine for simple, small tables with few cells. For larger tables, you may want to use the {gt} package.
+Now we will lay out a manual markdown table with a title. The title is placed after the table. The title is a markdown header, so it will be formatted as such. We are using math notation to get the Greek letters. You can get more details on making markdown tables here (https://quarto.org/docs/authoring/tables.html). This is fine for simple, small tables with few cells. For larger, more complicated tables, you will want to use the {gt} package.
 
 | Column 1               | Col2         | Column 3     |
 |------------------------|--------------|--------------|
@@ -45,7 +45,7 @@ Now we will lay out a fairly manual markdown table with a title. The title is pl
 
 : This is a Table Title {#tbl-1}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. 
 
 # Results
 
@@ -64,7 +64,7 @@ We can use backslashes to create line breaks in the markdown text. This is a ver
 \
 \
 
-## Now a fairly fancy table made with the {gt} package 
+## Now a fancy table made with the {gt} package 
 \
 
 ```{r}
@@ -151,9 +151,9 @@ penguin_table |>
 
 # Discussion in a Maize (RGB) Box with Black Border
 
-We will start with a fairly random math equation, just to show that quarto and typst can do math. Now some random text so that the yellow box spans two columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. 
+We will start with a random **math** equation, just to show that quarto and typst can do _math_. Now some random text so that the yellow box spans two columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. 
 
-::: {.block fill=rgb("FFCB05") inset="10pt" radius="4pt" stroke="2pt + black"}
+::: {.block fill=rgb("FFCB05") inset="10pt" radius="4pt" stroke="2pt + black" } 
 
 
 $$
@@ -177,7 +177,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 :::
 
-Now inserting another plot and controlling the height and width in inches on this 72 in poster. Note the backslash (for a line break) in the code to give us a bit of separation between the text and the plot.
+Now inserting another plot and controlling the height and width in inches on this 72 in poster. Note the backslash (for a line break) is used on a line by itself to give us a bit of separation between the text and the plot.
 \
 
 ```{r}
