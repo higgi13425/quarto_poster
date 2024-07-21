@@ -149,10 +149,10 @@
     ] else if it.level == 2 [
       // Second-level headings are run-ins.
       // italic, 32 pt, numbered w/letters
-      #set text(style: "italic")
+      #set text(style: "italic", weight: 600)
       #v(32pt, weak: true)
       #if it.numbering != none {
-        numbering("A.", deepest)
+        // removed numbering from subheadings
         h(7pt, weak: true)
       }
       #it.body

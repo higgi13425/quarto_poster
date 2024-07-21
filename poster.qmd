@@ -149,9 +149,9 @@ penguin_table |>
   as_raw_html()
 ```
 
-# Discussion in a Maize (RGB) Box with Black Border
+# Discussion
 
-We will start with a random **math** equation, just to show that quarto and typst can do _math_. Now some random text so that the yellow box spans two columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. 
+We will start with a random **math** equation, just to show that quarto and typst can do _math_. Now some random text so that the yellow box spans two columns. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur.We will put this next part in a **maize-colored box** to make it stand out.
 
 ::: {.block fill=rgb("FFCB05") inset="10pt" radius="4pt" stroke="2pt + black" } 
 
