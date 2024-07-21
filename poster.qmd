@@ -6,10 +6,14 @@ format:
     poster-authors: "J. Sheehan^1^, L.A. Johnson^1^, A. Jordan^1^, P.D.R. Higgins^1^"
     departments: "^1^Division of Gastroenterology, Department of Internal Medicine, University of Michigan"
     institution-logo: "./images/umichlogohex.png"
-    title-column-size: 60
-    title-font-size: 108
+    univ-image: "./images/UMhospital.jpeg"
+    univ-logo-column-size: 8
+    univ-logo-scale: 33
+    title-column-size: 50
+    title-font-size: 100
     authors-font-size: 54
-    univ-logo-column-size: 3
+    univ-image-column-size: 8
+    univ-image-scale: 120
     font-size: 48
     footer-text: "Digestive Disease Week 2025"
     footer-emails: "jsheeha@med.umich.edu"

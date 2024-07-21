@@ -25,6 +25,9 @@
   // Institution logo.
   $if(institution-logo)$ univ_logo: "$institution-logo$", $endif$
 
+  // Institution image.
+  $if(institution-image)$ univ_image: "$institution-image$", $endif$
+  
   // Footer text.
   // For instance, Name of Conference, Date, Location.
   // or Course Name, Date, Instructor.
@@ -64,6 +67,12 @@
   // University logo's column size (in in).
   $if(univ-logo-column-size)$ univ_logo_column_size: $univ-logo-column-size$, $endif$
 
+  // University image's scale (in %).
+  $if(univ-image-scale)$ univ_image_scale: $univ-image-scale$, $endif$
+  
+    // University image's column size (in in).
+  $if(univ-image-column-size)$ univ_image_column_size: $univ-image-column-size$, $endif$
+  
   // Title and authors' column size (in in).
   $if(title-column-size)$ title_column_size: $title-column-size$, $endif$
 

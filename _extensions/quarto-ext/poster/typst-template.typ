@@ -14,6 +14,9 @@
 
   // University logo.
   univ_logo: "Logo Path",
+  
+  // University image.
+  univ_image: "Image Path",
 
   // Footer text.
   // For instance, Name of Conference, Date, Location.
@@ -43,13 +46,19 @@
   num_columns: "3",
 
   // University logo's scale (in %).
-  univ_logo_scale: "100",
+  univ_logo_scale: "30",
+  
+  // University image's scale (in %).
+  univ_image_scale: "100",
 
   // University logo's column size (in in).
-  univ_logo_column_size: "10",
+  univ_logo_column_size: "8",
 
   // Title and authors' column size (in in).
-  title_column_size: "20",
+  title_column_size: "50",
+  
+  // University image's column size (in in).
+  univ_image_column_size: "8",
 
   // Poster title's font size (in pt).
   title_font_size: "48",
