@@ -1,7 +1,7 @@
 
 #let poster(
   // The poster's size.
-  size: "'36x24' or '48x36''",
+  size: "'36x24' or '48x36' or '72x30'",
 
   // The poster's title.
   title: "Paper Title",
@@ -35,7 +35,7 @@
   // DEFAULTS
   // ========
   // For 3-column posters, these are generally good defaults.
-  // Tested on 36in x 24in, 48in x 36in, and 36in x 48in posters.
+  // Tested on 36in x 24in, 48in x 36in, 72in x 30in, and 36in x 48in posters.
   // For 2-column posters, you may need to tweak these values.
   // See ./examples/example_2_column_18_24.typ for an example.
 
@@ -81,10 +81,12 @@
   let width = int(sizes.at(0)) * 1in
   let height = int(sizes.at(1)) * 1in
   univ_logo_scale = int(univ_logo_scale) * 1%
+  univ_image_scale = int(univ_image_scale) * 1%
   title_font_size = int(title_font_size) * 1pt
   authors_font_size = int(authors_font_size) * 1pt
   num_columns = int(num_columns)
   univ_logo_column_size = int(univ_logo_column_size) * 1in
+  univ_image_column_size = int(univ_image_column_size) * 1in
   title_column_size = int(title_column_size) * 1in
   footer_url_font_size = int(footer_url_font_size) * 1pt
   footer_text_font_size = int(footer_text_font_size) * 1pt
