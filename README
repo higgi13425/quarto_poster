@@ -1,14 +1,12 @@
-To get started, you will 
+To get started, you will need to:
+- fork and branch this repo to a local New Project/Version Control/Github repo on your computer in RStudio
+(follow this workflow if this is new to you https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/ )
 - copy and rename the poster.qmd file to a new qmd file
 - edit this file to change title, authors, department, etc
-- edit this file to include your poster content
-- potentially edit the '/_extensions/quarto-ext/poster/typst-template.typ' file to change the layout of the poster
-  - key variables include:
-    - body - in this section, you might change the body font (any font from Google Fonts - find one you like)
-    - body - in this section, you might change the body font size
-    - configure lists - change indents for numbered and bulleted lists
-    - configure headings - can change font, alignment, size, numbering
-    - arrange logo, title, vertical spacing with \n commands
+- edit this file to include your poster content, including gt tables, gtsummary tables, plots, and images.
+- fine tune font sizes in the YAML header
+- add line breaks with '\' on a separate line
+
 - Make adjustments in the YAML header
   - adjust poster dimensions (in inches, width then height)
   - title, authors, departments
@@ -17,6 +15,18 @@ To get started, you will
   - font-size for body text
   - univ-logo-column-size: 3
   - footer-text, footer-emails, footer-url, footer-color
-- Press the Render button to render your poster to PDF
-- Click on the webpabe button at the top left of the Viewer tab to see the PDF poster in a full size browser window. Expand the window as needed or zoom in the browser window +/- buttons or with keyboard Cmd-_+ or Ctrl-_+.
+- Press the Render button to render your poster to PDF - Cmd-Z to undo changes if it no longer renders.
+- Make a few changes, then Render, then make a few more if the render is OK
+- click on the Web page icon at the top left of the Viewer tab to open you pdf in a larger webpage window, scale as needed.
 
+- Click on the webpabe button at the top left of the Viewer tab to see the PDF poster in a full size browser window. 
+Expand the window as needed or zoom in the browser window +/- buttons or with keyboard Cmd-_+ or Ctrl-_+.
+
+
+- If the layout does not work, potentially edit the '/_extensions/quarto-ext/poster/typst-template.typ' file to change the layout of the poster
+  - key variables include:
+    - body - in this section, you might change the body font (any font from Google Fonts - find one you like)
+    - body - in this section, you might change the body font size
+    - configure lists - change indents for numbered and bulleted lists
+    - configure headings - can change font, alignment, size, numbering
+    - arrange logo, title, vertical spacing with \n commands
