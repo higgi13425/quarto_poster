@@ -182,16 +182,21 @@
   // Could add a 3rd column for Michigan image of hospital or campus
   // extra line break "\n" added to authors to separate from title
   // emph() causes italics
-  align(center,
+  //inset pads around the text, radius rounds the corners
+ align(center,
     grid(
       rows: 2,
       columns: (univ_logo_column_size, title_column_size, univ_image_column_size),
-      column-gutter: 10pt,
-      row-gutter: 10pt,
+      column-gutter: 5pt,
+      row-gutter: 5pt,
       image(univ_logo, width: univ_logo_scale),
-      text(title_font_size, title + "\n") + 
-      text(authors_font_size, emph("\n" + authors) + 
-          "\n" + departments),
+      box(stroke: rgb("#ffcb05") + 10pt, 
+          fill: rgb("#00274c"),
+            text(title_font_size, title + "\n", 
+            fill: rgb("#ffcb05")) + 
+            text(authors_font_size, emph("\n" + authors) + 
+            "\n" + departments, fill: rgb("#ffcb05")), 
+          radius: 15pt, inset: 30pt),
       image(univ_image, width: univ_image_scale)
     )
   )
