@@ -18,7 +18,7 @@ format:
     footer-text: "Digestive Disease Week 2025"
     footer-emails: "jsheeha@med.umich.edu"
     footer-color: "FFCB05"
-    footer-url: "Download this poster at:  https://www.med.umich.edu/DDW-poster-reproducible"
+    footer-url: "Download this poster at:  https://github.com/higgi13425/quarto_poster/blob/master/poster.pdf"
 ---
 
 # Background
