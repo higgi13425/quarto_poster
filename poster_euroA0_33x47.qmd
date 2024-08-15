@@ -2,18 +2,18 @@
 title: This is a Fabulously Reproducible Academic Poster with Typst and quarto!
 format:
   poster-typst: 
-    size: "60x30"
+    size: "33x47"
     poster-authors: "J. Sheehan^1^, L.A. Johnson^1^, A. Jordan^1^, P.D.R. Higgins^1^"
     departments: "^1^Division of Gastroenterology, Department of Internal Medicine, University of Michigan"
     institution-logo: "./images/umichlogohex.png"
     univ_image: "./images/UMhospital.jpeg"
-    univ-logo-column-size: 6
-    univ-logo-scale: 50
-    title-column-size: 54
-    title-font-size: 100
-    authors-font-size: 52
-    univ-image-column-size: 8
-    univ-image-scale: 130
+    univ-logo-column-size: 3
+    univ-logo-scale: 100
+    title-column-size: 25
+    title-font-size: 72
+    authors-font-size: 36
+    univ-image-column-size: 4
+    univ-image-scale: 100
     font-size: 48
     footer-text: "Digestive Disease Week 2025"
     footer-emails: "jsheeha@med.umich.edu"
@@ -38,7 +38,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
 
+\
+
 Now we will lay out a manual markdown table with a title. The title is placed after the table. The title is a markdown header, so it will be formatted as such. We are using math notation to get the Greek letters. You can get more details on making markdown tables here (https://quarto.org/docs/authoring/tables.html). This is fine for simple, small tables with few cells. For larger, more complicated tables, you will want to use the {gt} package.
+
+\
 
 | Column 1               | Col2         | Column 3     |
 |------------------------|--------------|--------------|
@@ -57,7 +61,7 @@ We will place a figure or image below using markdown syntax. We can specify the 
 
 ```{r}
 #| echo: FALSE
-#| out.width: 15%
+#| out.width: 95%
 #| fig.cap: "The details of a specific serif font."
 #| fig.align: "center"
 knitr::include_graphics('./images/Standard_lettering.png')
@@ -170,8 +174,15 @@ $$
 
 :::
 \
+\
+\
+\
+\
+\
 
-## Implications in a Gray Box (0[black]-255[white]) with a Blue Border
+## Implications in a Gray Box \ 
+## (0[black]-255[white]) with \
+## a Blue Border
 
 \
 
@@ -198,3 +209,30 @@ palmerpenguins::penguins |>
 ```
 
 
+\
+
+# Next Steps
+
+::: {.block fill=rgb("#D2F1FE") inset="10pt" radius="4pt" stroke="2pt + black" } 
+1. We will do amazing research in vitro with cell lines in petri dishes
+1. We will extend this with in vivo studies in mice and rats.
+1. We will then extend this with pig studies
+1. We will then move to human clinical trials.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+:::
+
+\
+
+# To Infinity and Beyond
+
+::: {.block fill=rgb("#99EDC3") inset="10pt" radius="4pt" stroke="2pt + black" } 
+1. We will do amazing research in vitro with cell lines in petri dishes
+1. We will extend this with in vivo studies in mice and rats.
+1. We will then extend this with pig studies
+1. We will then move to human clinical trials.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+:::
