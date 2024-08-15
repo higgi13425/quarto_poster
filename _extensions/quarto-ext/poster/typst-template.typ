@@ -76,7 +76,7 @@
   body
 ) = {
   // Set the body font. Use a Google Font you like. Set size. Here we used Open Sans.
-  set text(font: "Open Sans", size: 32pt)
+  set text(font: "Open Sans", size: 32pt) // Can change to 12pt for small size
   let sizes = size.split("x")
   let width = int(sizes.at(0)) * 1in
   let height = int(sizes.at(1)) * 1in
