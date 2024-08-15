@@ -1,9 +1,11 @@
-Open the file (click above) poster.pdf to see the final product in PDF form
+Open the file (click above) poster_30.pdf to see the final product in PDF form.
+You can zoom in (or out) on this or print it from your browser window.
+You can download this file to your computer by clicking on the download button at the top right of the PDF viewer window. It looks like an arrow downward to an inbox.
 
-To get started, you will need to:
+To get started making your own poster from R, you will need to:
 - fork and branch this repo to a local New Project/Version Control/Github repo on your computer in RStudio
 (follow this workflow if this is new to you https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/ )
-- copy and rename the poster.qmd file to a new qmd file
+- copy and rename the poster.qmd file in the size that you want to a new qmd file
 - edit this file to change title, authors, department, etc
 - edit this file to include your poster content, including gt tables, gtsummary tables, plots, and images.
 - fine tune font sizes in the YAML header
