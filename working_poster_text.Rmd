@@ -1,0 +1,53 @@
+---
+title: "poster_text"
+author: "Peter Higgins"
+date: "2026-03-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Title
+
+The New Combo Therapy:
+Barrier-Enhancing Therapy with Vadadustat Closes the Therapeutic Gap of Anti-Inflammatory Therapy with Upadacitinib in Dextran Sulfate Sodium (DSS) Colitis
+
+## Authors
+
+Yongjia Feng , Laura Johnson , Yao Lee , Peter D.R. Higgins
+INSTITUTIONS (ALL): 1. Internal Medicine - GI, University of Michigan, Ann Arbor, MI, United States.
+
+## Background
+
+Many anti-inflammatory therapies are effective for ulcerative colitis, but a large therapeutic gap remains between clinical remission rates of 40-55% and the goal of 100% remission. Combinations of advanced therapy produce only marginal gains. Endoscopic remission rates are even lower than clinical remission rates.
+JAKi, anti-TNF, and anti-IL23 therapies all reduce the activation of STAT3, which is critical in driving inflammation via IL-6 and NFkB, as well as driving mucosal healing via HIF (hypoxia inducible factor) protein-driven transcription. Blocking STAT3 is helpful for inflammation, but may inadvertently interfere with mucosal healing and barrier function. We aimed to address this therapeutic gap by restoring downstream HIF protein function by adding a HIF-PHI (HIF-prolyl hydroxylase inhibitor), Vadadustat [Vada], to Upadacitinib [Upa] in the
+treatment of DSS colitis.
+
+## Methods
+
+Forty C57/BL6 mice were divided into 5 groups (Figures). Mice were provided oral 3% DSS for 8 days and rested with drinking water for 1 day. During the 9 days, daily 3 mg/kg Vada (oral gavage) and 30 mg/kg Upa (intraperitoneal) or the corresponding vehicles were given to mice, and stool blood and body weight (BW) were recorded daily. For barrier leak, 4KDa FITC-Dextran at 0.6 mg/g BW was given by oral gavage to mice 4 hours before serum was collected and FITC concentrations were measured. All mice were sacrificed at day 10, and colons were collected for histology, IF, western, and RT-PCR. Histology was scored by a masked veterinary pathologist.
+
+## Results
+
+DSS colitis increased colon weight/length ratio & colon weight and decreased colon length, and Upa treatment reduced the colon weight/length ratio by 45%. Upa+Vada further reduced colon weight, increased colon length,
+and reduced the colon weight/length ratio (p<0.01) to nearly baseline levels. The intestinal barrier function measured by serum FITC was worsened in the DSS group, was minimally changed by Upa, but significantly improved by Upa+Vada therapy (p<0.001 vs DSS). Immunofluorescence of ZO-1, E-cadherin, occludin, and
+claudin-1 show barrier restoration with Vada (Fig 1). Masked colitis histology scores were similarly improved threefold by Upa+Vada vs Upa monotherapy (p<0.0001 vs DSS, Fig 2).
+
+## Conclusions
+
+Vadadustat (a HIF-PHI barrier enhancing therapy) in combination with an anti-inflammatory (Upa) therapy is twice as effective as Upa alone in restoring colon barrier function, histology, and gross pathology in DSS colitis.
+Adding a barrier-enhancing therapy to an anti-inflammatory therapy closes most of the therapeutic gap in DSS colitis. Vada might also close the therapeutic gap in combinations with anti-TNF and anti-IL23 therapies, and is FDA approved for the treatment of the anemia of dialysis. Future clinical trials will evaluate the efficacy of Vada + anti-inflammatory therapies in IBD
+
+## Figure 1
+
+IMAGE CAPTION:
+Restoration of Barrier Function Proteins In the Mouse Colon. 
+From left to right are negative control, drug control, DSS colitis positive control, DSS colitis treated with Upadacitinib, and DSS colitis treated with Upadacitinib and Vadadustat. In the top row are tight junction protein ZO-1 in red, adherens junction protein E-cadherin in green, and DAPI nuclear stain in blue. In the bottom row are tight junction and plasma membrane protein Claudin 1 in red, tight junction protein Occludin in green, and DAPI nuclear stain in blue. DSS colitis greatly disrupts normal adherens and tight junction proteins. The addition of Vadadustat to Upadacitinib treatment substantially restores barrier function proteins in the mouse colon. This is functionally supported by our 4 kDa FITC-dextran data.
+
+## Figure 2
+
+IMAGE CAPTION:
+Total Colon Histology Score of Mouse Colons by Masked Veterinary Pathologist Across Five Treatment Arms. 
+Treatment of DSS Colitis with Upadacitinib Reduces Mean Histology Score from 5.4 (DSS+Vehicle) to by 0.9 points to 4.5 (Upadacitinib alone) or by 2.8 points to 2.6 (Upadacitinib + Vadadustat) for a threefold greater effect on Colitis Histology. Vadadustat when added to Upadacitinib significantly improves the Total Histology Score in DSS Colitis in Mice.
